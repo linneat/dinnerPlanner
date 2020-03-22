@@ -108,7 +108,7 @@ align-self: flex-end;
   background-color:#E6EEF3;
   margin-left: 5%;
   margin-right: 5%;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 #category2{
@@ -121,7 +121,7 @@ align-self: flex-end;
   background-color:#E6EEF3;
   margin-left: 5%;
   margin-right: 5%;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 #category3{
@@ -134,7 +134,7 @@ align-self: flex-end;
   background-color:#E6EEF3;
   margin-left: 5%;
   margin-right: 5%;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 #category4{
@@ -147,7 +147,7 @@ align-self: flex-end;
   background-color:#E6EEF3;
   margin-left: 5%;
   margin-right: 5%;  
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .textCat{
@@ -184,8 +184,8 @@ i {
 .img{
   width: 100%;
    opacity: 0.80;
-   border-top-left-radius: 4%;
-   border-top-right-radius: 4%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 #containerMenuPage {
@@ -224,7 +224,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu2{
@@ -235,7 +235,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu3{
@@ -246,7 +246,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu4{
@@ -257,7 +257,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 
@@ -269,7 +269,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu6{
@@ -280,7 +280,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu7{
@@ -291,7 +291,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #menu8{
@@ -302,7 +302,7 @@ i {
   text-align: center;
   background-color:#E6EEF3;
   margin: auto;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 #picturemenu1{
@@ -338,7 +338,7 @@ i {
   grid-column-end: 7;
   text-align: left;
   background-color:#E6EEF3;
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 
@@ -349,7 +349,7 @@ i {
   grid-column-end: 12;
   text-align: left;
   background-color:#E6EEF3;
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 .text-list-header{
