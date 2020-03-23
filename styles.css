@@ -190,7 +190,7 @@ i {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 2%;
-  grid-template-rows: 160px 150px 150px 150px;
+  grid-template-rows: 160px 150px 150px 150px; 
   margin: 0 auto;
   grid-row-gap: 4%;
 }
@@ -316,7 +316,7 @@ i {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 2%;
-  grid-template-rows: 160px 140px 140px 140px 100px;
+  /* grid-template-rows: 160px 140px 140px 140px 100px; */
   margin: 0 auto;
   grid-row-gap: 4%;
 }
@@ -329,6 +329,7 @@ i {
   text-align: left;
   background-color: #e6eef3;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .recipe {
@@ -339,6 +340,7 @@ i {
   text-align: left;
   background-color: #e6eef3;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .text-list-header {
@@ -560,7 +562,21 @@ i {
 
   .ol-list {
     padding-right: 6%;
+    font-size: 13px;
   }
+
+  .ul-list{
+    font-size: 13px;
+  }
+
+  ul{
+    padding-inline-start: 20px;
+  }
+
+  ol{
+    padding-inline-start: 20px;
+  }
+
 }
 
 /* for phones max-width 1024px --> for ipads*/
@@ -759,6 +775,7 @@ i {
   }
 }
 
+/*random size of screen between mobile size and ipad size*/
 @media screen and (min-device-width: 415px) and (max-width: 680px) {
   /* index page*/
 
@@ -822,4 +839,22 @@ i {
   #menu8 {
     width: 90%;
   }
+
+  /*grocery list and recipe page*/
+  .ul-list {
+    font-size: 12px;
+  }
+  
+  .ol-list {
+    font-size: 12px;
+  }
+
+  ul{
+    padding-inline-start: 20px;
+  }
+
+  ol{
+    padding-inline-start: 30px;
+  }
+
 }
