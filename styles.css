@@ -562,18 +562,17 @@ i {
     font-size: 13px;
   }
 
-  .ul-list{
+  .ul-list {
     font-size: 13px;
   }
 
-  ul{
+  ul {
     padding-inline-start: 15px;
   }
 
-  ol{
+  ol {
     padding-inline-start: 33px;
   }
-
 }
 
 /* for phones max-width 1024px --> for ipads*/
@@ -781,7 +780,6 @@ i {
     grid-column-gap: 1em;
     grid-template-rows: 1% 200px 4% 150px 150px;
     grid-row-gap: 2em;
-    
   }
   .icon {
     height: 65px;
@@ -808,23 +806,20 @@ i {
     font-size: 11px;
   }
 
- 
-  
   /*grocery list and recipe page*/
   .ul-list {
     font-size: 12px;
   }
-  
+
   .ol-list {
     font-size: 12px;
   }
 
-  ul{
+  ul {
     padding-inline-start: 20px;
   }
 
-  ol{
+  ol {
     padding-inline-start: 30px;
   }
-
 }
