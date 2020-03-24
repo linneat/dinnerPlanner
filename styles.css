@@ -640,6 +640,7 @@ i {
     grid-row-start: 1;
     justify-self: stretch;
     text-align: center;
+    margin-bottom: 10%;
   }
 
   #menu1 {
@@ -703,6 +704,7 @@ i {
   #containerMenuPage {
     grid-column-gap: 1em;
     grid-row-gap: 15px;
+    margin-bottom: 10%;
   }
 
   #headingMenu {
@@ -796,6 +798,7 @@ i {
   #containerMenuPage {
     grid-column-gap: 1em;
     grid-row-gap: 10px;
+    margin-bottom: 10%;
   }
 
   #headingMenu {
@@ -808,6 +811,7 @@ i {
     font-size: 11px;
   }
 
+ 
   
   /*grocery list and recipe page*/
   .ul-list {
