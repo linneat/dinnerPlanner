@@ -190,9 +190,9 @@ i {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 2%;
-  grid-template-rows: 160px 150px 150px 150px; 
+  /* grid-template-rows: 160px 150px 150px 150px;  */
   margin: 0 auto;
-  grid-row-gap: 4%;
+  grid-row-gap: 10px;
 }
 
 #headingMenu {
@@ -203,10 +203,10 @@ i {
   grid-row-start: 1;
   justify-self: stretch;
   text-align: center;
-  margin: auto;
   font-size: 26px;
   font-weight: bolder;
   margin-top: 3%;
+  margin-bottom: 4%;
 }
 
 #menu1 {
@@ -629,14 +629,12 @@ i {
 
   /* recipe overview for specific category page*/
   #containerMenuPage {
-    grid-template-rows: 150px 180px 180px 180px 180px;
-    grid-row-gap: 0;
+    grid-row-gap: 10px;
   }
 
   #headingMenu {
     font-size: 25px;
     color: #5b5b60;
-    margin-bottom: 10%;
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 1;
@@ -703,13 +701,14 @@ i {
   }
   /*recipe overview for specific category page*/
   #containerMenuPage {
-    grid-template-rows: 200px 210px 210px 210px 210px;
     grid-column-gap: 1em;
+    grid-row-gap: 15px;
   }
 
   #headingMenu {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 50px;
+    margin-bottom: 7%;
   }
 
   .textCat {
@@ -783,6 +782,7 @@ i {
     grid-column-gap: 1em;
     grid-template-rows: 1% 200px 4% 150px 150px;
     grid-row-gap: 2em;
+    
   }
   .icon {
     height: 65px;
@@ -794,8 +794,8 @@ i {
 
   /*recipe overview for specific category page*/
   #containerMenuPage {
-    grid-template-rows: 180px 120px 120px 120px 120px;
     grid-column-gap: 1em;
+    grid-row-gap: 10px;
   }
 
   #headingMenu {
@@ -808,38 +808,7 @@ i {
     font-size: 11px;
   }
 
-  #menu1 {
-    width: 90%;
-  }
-
-  #menu2 {
-    width: 90%;
-  }
-
-  #menu3 {
-    width: 90%;
-  }
-
-  #menu4 {
-    width: 90%;
-  }
-
-  #menu5 {
-    width: 90%;
-  }
-
-  #menu6 {
-    width: 90%;
-  }
-
-  #menu7 {
-    width: 90%;
-  }
-
-  #menu8 {
-    width: 90%;
-  }
-
+  
   /*grocery list and recipe page*/
   .ul-list {
     font-size: 12px;
