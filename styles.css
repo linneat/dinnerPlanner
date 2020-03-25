@@ -97,6 +97,7 @@ a {
 }
 
 #category1 {
+  display: block;
   margin-top: 3%;
   grid-row-start: 4;
   grid-column-start: 1;
@@ -110,6 +111,7 @@ a {
 }
 
 #category2 {
+  display: block;
   margin-top: 3%;
   grid-row-start: 4;
   grid-column-start: 4;
@@ -123,6 +125,7 @@ a {
 }
 
 #category3 {
+  display: block;
   margin-top: 3%;
   grid-row-start: 4;
   grid-column-start: 7;
@@ -136,6 +139,7 @@ a {
 }
 
 #category4 {
+  display: block;
   margin-top: 3%;
   grid-row-start: 4;
   grid-column-start: 10;
